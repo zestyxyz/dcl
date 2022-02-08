@@ -1,0 +1,39 @@
+{
+  "name": "Zesty Banner",
+  "tags": ["banner", "zesty"],
+  "category": "decorations",
+  "model": "models/image_preview.glb",
+  "parameters": [
+    {
+      "id": "network",
+      "label": "Network",
+      "type": "text",
+      "default": "Polygon"
+    },
+    {
+      "id": "space",
+      "label": "Space",
+      "type": "text",
+      "default": "999999"
+    },
+    {
+      "id": "format",
+      "label": "Format",
+      "type": "text",
+      "default": "square"
+    },
+    {
+      "id": "style",
+      "label": "Style",
+      "type": "text",
+      "default": "Standard"
+    },
+    {
+      "id": "beacon",
+      "label": "Beacon",
+      "type": "boolean",
+      "default": false
+    }
+  ],
+  "actions": []
+}
