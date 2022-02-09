@@ -68,7 +68,7 @@
     },
     {
       "id": "beacon",
-      "label": "Beacon",
+      "label": "Beacon (Activate For Analytics)",
       "type": "boolean",
       "default": true
     }
