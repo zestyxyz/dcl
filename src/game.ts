@@ -15,6 +15,6 @@ spawner.spawn(
     space: "999999",
     format: "square",
     style: "transparent",
-    beacon: false
+    beacon: true
   }
 )

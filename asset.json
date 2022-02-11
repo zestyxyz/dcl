@@ -7,8 +7,18 @@
     {
       "id": "network",
       "label": "Network",
-      "type": "text",
-      "default": "Polygon"
+      "type": "options",
+      "options": [
+        {
+          "value": "polygon",
+          "label": "Polygon Mainnet"
+        },
+        {
+          "value": "rinkeby",
+          "label": "Rinkeby Testnet"
+        }
+      ],
+      "default": "polygon"
     },
     {
       "id": "space",
@@ -19,20 +29,48 @@
     {
       "id": "format",
       "label": "Format",
-      "type": "text",
+      "type": "options",
+      "options": [
+        {
+          "value": "square",
+          "label": "Square (1:1)"
+        },
+        {
+          "value": "tall",
+          "label": "Tall (3:4)"
+        },
+        {
+          "value": "wide",
+          "label": "Wide (4:1)"
+        }
+      ],
       "default": "square"
     },
     {
       "id": "style",
       "label": "Style",
-      "type": "text",
-      "default": "Standard"
+      "type": "options",
+      "options": [
+        {
+          "value": "standard",
+          "label": "Standard"
+        },
+        {
+          "value": "minimal",
+          "label": "Minimal"
+        },
+        {
+          "value": "transparent",
+          "label": "Transparent"
+        }
+      ],
+      "default": "standard"
     },
     {
       "id": "beacon",
-      "label": "Beacon",
+      "label": "Beacon (For Analytics)",
       "type": "boolean",
-      "default": false
+      "default": true
     }
   ],
   "actions": []
